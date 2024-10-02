@@ -6,12 +6,14 @@
 main {
     height: 100vg;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.text{
+.text {
     width: 487px;
     height: 128px;
+    margin-top: 108px;
 }
 
 p {
@@ -26,17 +28,17 @@ p {
 
 h1 {
     color: #333333;
-
     font-family: "Lato", sans-serif;
     font-size: 64px;
     font-weight: 600;
     line-height: 76.8px;
     letter-spacing: 0.01em;
     text-align: center;
-    margin-top:108px;
 }
 
 .columnDonut1 {
+    display: flex;
+    flex-direction: column;
     margin-top: 171px;
 }
 
@@ -44,9 +46,12 @@ h1 {
     width: 302px;
     height: 348px;
     border-radius: 40px;
+    padding-bottom: 48px; 
 }
 
 .columnDonut2 {
+    display: flex;
+    flex-direction: column;
     margin-top: 171px;
 }
 
@@ -54,13 +59,42 @@ h1 {
     width: 302px;
     height: 348px;
     border-radius: 40px;
+    padding-bottom: 48px; 
 }
 
-.div2{
+.div1{
+    display: flex;
+    align-items: center;
+}
+
+.div2 {
     margin-top: 331px;
 }
 
-.div2 img{
+.div2 img {
     width: 148px;
     height: 148px;
+    padding:24px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+
+
+    color: white;
+    background-color: #333333;
+    width: 150px;
+    height: 24px;
+    margin-top: 33px;
+    padding: 24px 56px 24px 56px;
+    gap: 10px;
+    border-radius: 40px;
 }
